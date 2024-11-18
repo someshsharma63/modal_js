@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.click_me button
+{
+    background-color: purple;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.click_me
+{
+    margin: 20px;
+}
+#mainbox
+{
+    width: 400px;
+    margin: auto;
+    /* height: 300px; */
+    background-color: purple;
+    border-radius: 10px;
+    display: none;
+}
+.content
+{
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+}
+.content h1
+{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.close_icon {
+    /* text-align: right; */
+    font-size: 33px;
+    position: absolute;
+    right: 20px;
+    bottom: 226px;
+    cursor: pointer;
+}
